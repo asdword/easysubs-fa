@@ -1,5 +1,5 @@
 import { learningServiceStore } from '../store'
-import { Lingualeo } from './Lingualeo'
+import {Lingualeo} from "./Lingualeo";
 import { PuzzleEnglish } from './PuzzleEnglish'
 
 export const getCurrentLearningService = () => {

@@ -32,8 +32,8 @@ function Word(props: Props) {
     props.tagName,
     {
       className: 'easysubs-word',
-      onClick: hideTranslatePopup,
-      onMouseEnter: showTranslatePopup,
+      onClick: showTranslatePopup,
+//      onMouseEnter: showTranslatePopup,
       onMouseLeave: hideTranslatePopup,
       ref: wordNode,
     },

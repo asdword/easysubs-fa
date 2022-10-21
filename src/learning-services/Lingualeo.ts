@@ -8,7 +8,7 @@ export class Lingualeo {
   public addWord(word: string, translate: string, _: string, context: string): Promise<string> {
     const url = new URL('https://api.lingualeo.com/addword')
     const data = {
-      word: word,
+      word: word,	
       tword: translate,
       port: 1001,
       context: context,
